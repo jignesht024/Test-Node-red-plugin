@@ -16,5 +16,6 @@
     "url": "https://github.com/jignesht024/Test-Node-red-plugin/tree/master/Computation"
   },
   "license": "ISC",
+  "keywords": "node-red"
   "description": ""
 }
