@@ -1,14 +1,20 @@
 {
-	"name": "node-red-contrib-computation",
-	"version": "1.0.0",
-	"description" : "",
-	"main":"index.js",
-	"scripts": {
-		"test":"echo \"Error \""
-	},
-	"author": "",
-	"license": "public",
-	"node-red" : {
-		"nodes": { "computation" :"computation.js"}
-	}
+  "name": "node-red-contrib-computation-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error \""
+  },
+  "author": "Jignesh",
+  "node-red": {
+    "nodes": {
+      "computation": "computation.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jignesht024/Test-Node-red-plugin/tree/master/Computation"
+  },
+  "license": "ISC",
+  "description": ""
 }
