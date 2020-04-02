@@ -1,0 +1,14 @@
+{
+	"name": "node-red-contrib-computation",
+	"version": "1.0.0",
+	"description" : "",
+	"main":"index.js",
+	"scripts": {
+		"test":"echo \"Error \""
+	},
+	"author": "",
+	"license": "public",
+	"node-red" : {
+		"nodes": { "computation" :"computation.js"}
+	}
+}

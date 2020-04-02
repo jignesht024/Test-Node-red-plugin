@@ -1,0 +1,32 @@
+<script type="text/javascript">
+
+	RED.nodes.registerType('Computation', {
+		category: 'function',
+		color: '#a6bbcf',
+		defaults: {
+			input1: {value:""},
+			input2: {value:""},
+			name: {value:""},
+		},
+		inputs:2,
+		outputs:1,
+		label : function () {
+			return this.name || "Computation";
+		}
+	});
+</script>
+
+<script type="text/x-red" data-template-name="Computation">
+	<div class="form-row">
+		<label for="node-input-input1"><i class="icon-tag"></i>Input 1<label>
+		<input type="number" id="node-input-input1" placeholder= "Input 1">
+	</div>
+	<div class="form-row">
+		<label for="node-input-input2"><i class="icon-tag"></i>Input 2<label>
+		<input type="number" id="node-input-input2" placeholder= "Input 2">
+	</div>
+	<div class="form-row">
+		<label for="node-input-name"><i class="icon-tag"></i>Name<label>
+		<input type="number" id="node-input-Name" placeholder= "Name">
+	</div>
+</script>
