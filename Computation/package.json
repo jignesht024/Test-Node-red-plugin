@@ -8,7 +8,7 @@
   "author": "Jignesh",
   "node-red": {
     "nodes": {
-      "computation": "computation.js"
+      "computationNode": "computation.js"
     }
   },
   "repository": {
@@ -17,5 +17,8 @@
   },
   "license": "ISC",
   "keywords": "node-red",
-  "description": ""
+  "description": "",
+  "dependencies": {
+        "add-numbers": "^1.0.0"
+   },
 }
